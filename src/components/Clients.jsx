@@ -10,7 +10,7 @@ const Clients = () => (
       <img src={airbnb} alt="airbnb" className="w-[192px] h-[60px] object-contain "/>
       <img src={binance} alt="airbnb" className="w-[192px] h-[60px] object-contain "/>
       <img src={coinbase} alt="airbnb" className="w-[192px] h-[60px] object-contain "/>
-      <img src={dropbox} alt="airbnb" className=" w-[192px] h-[60px] object-contain "/>
+      <img src={dropbox} alt="airbnb" className=" w-[192px] h-[60px] object-contains"/>
     </div>
   </section>
 )

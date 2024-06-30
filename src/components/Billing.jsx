@@ -23,7 +23,7 @@ const Billing = () => {
         ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
 
         </div>
-        <div className="flex flex-row sm:m-10 mt-6 gap-5">
+        <div className="flex flex-row sm:mt-10 mt-6 gap-5">
         <img src={google} alt="google_play" className="w-[128px] h-[42px] object-contain cursor-pointer"/>
         <img src={apple} alt="apple" className="w-[128px] h-[42px] object-contain cursor-pointer"/>
         </div>

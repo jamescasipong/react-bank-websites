@@ -6,7 +6,7 @@ import {quotes} from "../assets";
 
 const Testimonials = () => (
 
-  <section id="testimonials" className={`${styles.paddingY} flex flex-col justify-center items-center relative`}>
+  <section id="clients" className={`${styles.paddingY} flex flex-col justify-center items-center relative`}>
     
     <div className={`w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]`}>
          <h1 className={styles.heading2}>What people are <b className="md:block hidden"/>saying about us</h1>

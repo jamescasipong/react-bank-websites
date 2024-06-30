@@ -22,7 +22,7 @@ const FeatureCard = ({icon, title, content, index}) => (
 const Business = () => {
   
   return (
-    <section id="features" className={layout.sction}>
+    <section id="features" className={layout.section}>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>You do the business, we’ll handle the money.</h2>
           <p className={`${styles.paragraph} max-w-[478px] mt-5`}>With the right credit card, 

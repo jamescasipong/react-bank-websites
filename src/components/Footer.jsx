@@ -37,7 +37,7 @@ const Footer = () => {
     </div>
 
 
-    <div className="flex w-full flex-row justify-center items-center">
+    <div className="flex w-full justify-center items-center pt-6 border-t-[1px] border-t-[#3F3E45]">
       <div className="flex flex-row flex-1">
          <p className={`font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] mr-5`}>
          Copyright &copy; <span className="mr-4"></span>2021 HooBank. All Rights Reserved.
@@ -45,7 +45,7 @@ const Footer = () => {
 
       </div>
           
-      <div className="flex flex-row flex-warp gap-5 mr-5 mt-10 border-t-[1px] border-t-[#3F3E45]">
+      <div className="flex flex-row flex-warp gap-5 mr-5">
           <img src={facebook} alt="fb" className="w-[21px] h-[21px] object-contain"/>
           <img src={twitter} alt="x" className="w-[21px] h-[21px] object-contain"/>
           <img src={instagram} alt="ig" className="w-[21px] h-[21px] object-contain"/>

@@ -43,8 +43,10 @@ const Footer = () => {
          </p>
 
       </div>
+          
+      <div className="flex flex-row flex-warp w-full">
 
-      <div></div>
+      </div>
     </div>
   </div>
 )};

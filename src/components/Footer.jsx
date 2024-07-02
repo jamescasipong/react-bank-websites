@@ -8,7 +8,7 @@ const Footer = () => {
   return (
   <div>
     <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full ">
-      <div className="flex-1 flex flex-col md:mb-5 mb-0 justify-start mr-10">
+      <div className="flex-1 flex flex-col md:mb-0 mb-5 justify-start mr-10">
           <div className="flex-1 flex-col flex justify-start">
               <img src={logo} alt="" className="w-[266px] h-[72px] object-contain"/>
           </div>

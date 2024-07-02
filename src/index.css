@@ -34,6 +34,10 @@
   text-fill-color: transparent;
 }
 
+.bg-footer {
+  background: rgba(11,10,12,.6)
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,

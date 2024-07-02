@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const CTA = () => (
   
-  <section className={`my-6 flex sm:flex-row flex-col justify-center items-center relative w-full sm:pt-[40px] pt-[20px] sm:pl-[60px] pl-[24px] sm:pb-[40px] pb-[20px] sm:pr-[60px] pr-[24px] bg-black-gradient-2 rounded-xl`}>
+  <section className={`my-6 flex mb-[100px] sm:flex-row flex-col justify-center items-center relative w-full sm:pt-[40px] pt-[20px] sm:pl-[60px] pl-[24px] sm:pb-[40px] pb-[20px] sm:pr-[60px] pr-[24px] bg-black-gradient-2 rounded-xl`}>
     <div className={`${layout.sectionInfo}`}>
       <h2 className={`${styles.heading2} sm:text-left text-center`}>
       Let’s try our service now!

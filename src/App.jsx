@@ -37,9 +37,17 @@ const App = () => {
           <Testimonials/>
           <Clients/>
           <CTA/>
-          <Footer/>
+
         </div>
       </div>
+
+      <section className={`bg-footer flex justify-center items-center sm:px-16 px-6 sm:py-16 py-6 
+       flex-col mt-10`}>
+      <div className={`${styles.boxWidth}`}>
+
+          <Footer/>
+        </div>
+      </section>
     </div>
   );
 };

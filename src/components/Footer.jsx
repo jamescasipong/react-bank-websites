@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { facebook, logo, instagram, linkedin, twitter } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import styles from "../styles";
 
@@ -7,7 +7,7 @@ import styles from "../styles";
 const Footer = () => {
   return (
   <div>
-    <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
+    <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full ">
       <div className="flex-1 flex flex-col md:mb-5 mb-0 justify-start mr-10">
           <div className="flex-1 flex-col flex justify-start">
               <img src={logo} alt="" className="w-[266px] h-[72px] object-contain"/>
@@ -36,6 +36,7 @@ const Footer = () => {
       </div>
     </div>
 
+
     <div className="flex w-full flex-row justify-center items-center">
       <div className="flex flex-row flex-1">
          <p className={`font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] mr-5`}>
@@ -44,8 +45,11 @@ const Footer = () => {
 
       </div>
           
-      <div className="flex flex-row flex-warp w-full">
-
+      <div className="flex flex-row flex-warp gap-5 mr-5 mt-10 border-t-[1px] border-t-[#3F3E45]">
+          <img src={facebook} alt="fb" className="w-[21px] h-[21px] object-contain"/>
+          <img src={twitter} alt="x" className="w-[21px] h-[21px] object-contain"/>
+          <img src={instagram} alt="ig" className="w-[21px] h-[21px] object-contain"/>
+          <img src={linkedin} alt="li" className="w-[21px] h-[21px] object-contain"/>
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { close, logo, menu } from "../assets";
-import { footerLinks } from "../constants";
+import { footerLinks, socialMedia } from "../constants";
 import styles from "../styles";
 
 
@@ -35,9 +35,16 @@ const Footer = () => {
             ))}
       </div>
     </div>
-    
-    <div>
 
+    <div className="flex w-full flex-row justify-center items-center">
+      <div className="flex flex-row flex-1">
+         <p className={`font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] mr-5`}>
+         Copyright &copy; <span className="mr-4"></span>2021 HooBank. All Rights Reserved.
+         </p>
+
+      </div>
+
+      <div></div>
     </div>
   </div>
 )};

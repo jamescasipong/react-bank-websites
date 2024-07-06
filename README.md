@@ -1,7 +1,5 @@
 # React.js and Tailwind CSS Project
 
-This project was created to enhance my familiarity and skills with React.js and Tailwind CSS. It follows a tutorial provided by the JavaScript Mastery channel, which guided me through the entire development process.
-
 ## Description
 
 The project serves as a practical means to learn and implement key concepts of React.js and utilize the utility-first approach of Tailwind CSS for styling.

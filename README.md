@@ -8,7 +8,6 @@ The project serves as a practical means to learn and implement key concepts of R
 
 - Implements React components and state management techniques.
 - Utilizes Tailwind CSS for responsive and modern styling.
-- Follows best practices learned from the JavaScript Mastery tutorial.
 
 ## Usage
 
